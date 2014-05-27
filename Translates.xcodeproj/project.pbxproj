@@ -14,22 +14,9 @@
 		4927A1CB1934C98900E5F6D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4927A1CA1934C98900E5F6D2 /* main.m */; };
 		4927A1CF1934C98900E5F6D2 /* TWTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4927A1CE1934C98900E5F6D2 /* TWTAppDelegate.m */; };
 		4927A1D11934C98900E5F6D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4927A1D01934C98900E5F6D2 /* Images.xcassets */; };
-		4927A1D81934C98900E5F6D2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4927A1D71934C98900E5F6D2 /* XCTest.framework */; };
-		4927A1D91934C98900E5F6D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4927A1BE1934C98900E5F6D2 /* Foundation.framework */; };
-		4927A1DA1934C98900E5F6D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4927A1C21934C98900E5F6D2 /* UIKit.framework */; };
-		4927A1E21934C98900E5F6D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4927A1E01934C98900E5F6D2 /* InfoPlist.strings */; };
-		4927A1E41934C98900E5F6D2 /* TranslatesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4927A1E31934C98900E5F6D2 /* TranslatesTests.m */; };
+		4927A1EF1934CA2C00E5F6D2 /* TWTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4927A1EE1934CA2C00E5F6D2 /* TWTViewController.m */; };
+		4927A1F219350FA200E5F6D2 /* UIView+TWTConstraintsForAutoresizingMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4927A1F119350FA200E5F6D2 /* UIView+TWTConstraintsForAutoresizingMask.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4927A1DB1934C98900E5F6D2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4927A1B31934C98900E5F6D2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4927A1BA1934C98900E5F6D2;
-			remoteInfo = Translates;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4927A1BB1934C98900E5F6D2 /* Translates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Translates.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,11 +30,10 @@
 		4927A1CD1934C98900E5F6D2 /* TWTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWTAppDelegate.h; sourceTree = "<group>"; };
 		4927A1CE1934C98900E5F6D2 /* TWTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWTAppDelegate.m; sourceTree = "<group>"; };
 		4927A1D01934C98900E5F6D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4927A1D61934C98900E5F6D2 /* TranslatesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TranslatesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4927A1D71934C98900E5F6D2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		4927A1DF1934C98900E5F6D2 /* TranslatesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TranslatesTests-Info.plist"; sourceTree = "<group>"; };
-		4927A1E11934C98900E5F6D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4927A1E31934C98900E5F6D2 /* TranslatesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TranslatesTests.m; sourceTree = "<group>"; };
+		4927A1ED1934CA2C00E5F6D2 /* TWTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTViewController.h; sourceTree = "<group>"; };
+		4927A1EE1934CA2C00E5F6D2 /* TWTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTViewController.m; sourceTree = "<group>"; };
+		4927A1F019350FA200E5F6D2 /* UIView+TWTConstraintsForAutoresizingMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TWTConstraintsForAutoresizingMask.h"; sourceTree = "<group>"; };
+		4927A1F119350FA200E5F6D2 /* UIView+TWTConstraintsForAutoresizingMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TWTConstraintsForAutoresizingMask.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,16 +47,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4927A1D31934C98900E5F6D2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4927A1D81934C98900E5F6D2 /* XCTest.framework in Frameworks */,
-				4927A1DA1934C98900E5F6D2 /* UIKit.framework in Frameworks */,
-				4927A1D91934C98900E5F6D2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				4927A1C41934C98900E5F6D2 /* Translates */,
-				4927A1DD1934C98900E5F6D2 /* TranslatesTests */,
 				4927A1BD1934C98900E5F6D2 /* Frameworks */,
 				4927A1BC1934C98900E5F6D2 /* Products */,
 			);
@@ -88,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				4927A1BB1934C98900E5F6D2 /* Translates.app */,
-				4927A1D61934C98900E5F6D2 /* TranslatesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,7 +73,6 @@
 				4927A1BE1934C98900E5F6D2 /* Foundation.framework */,
 				4927A1C01934C98900E5F6D2 /* CoreGraphics.framework */,
 				4927A1C21934C98900E5F6D2 /* UIKit.framework */,
-				4927A1D71934C98900E5F6D2 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,6 +84,10 @@
 				4927A1CE1934C98900E5F6D2 /* TWTAppDelegate.m */,
 				4927A1D01934C98900E5F6D2 /* Images.xcassets */,
 				4927A1C51934C98900E5F6D2 /* Supporting Files */,
+				4927A1ED1934CA2C00E5F6D2 /* TWTViewController.h */,
+				4927A1EE1934CA2C00E5F6D2 /* TWTViewController.m */,
+				4927A1F019350FA200E5F6D2 /* UIView+TWTConstraintsForAutoresizingMask.h */,
+				4927A1F119350FA200E5F6D2 /* UIView+TWTConstraintsForAutoresizingMask.m */,
 			);
 			path = Translates;
 			sourceTree = "<group>";
@@ -122,24 +99,6 @@
 				4927A1C71934C98900E5F6D2 /* InfoPlist.strings */,
 				4927A1CA1934C98900E5F6D2 /* main.m */,
 				4927A1CC1934C98900E5F6D2 /* Translates-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		4927A1DD1934C98900E5F6D2 /* TranslatesTests */ = {
-			isa = PBXGroup;
-			children = (
-				4927A1E31934C98900E5F6D2 /* TranslatesTests.m */,
-				4927A1DE1934C98900E5F6D2 /* Supporting Files */,
-			);
-			path = TranslatesTests;
-			sourceTree = "<group>";
-		};
-		4927A1DE1934C98900E5F6D2 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4927A1DF1934C98900E5F6D2 /* TranslatesTests-Info.plist */,
-				4927A1E01934C98900E5F6D2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -164,24 +123,6 @@
 			productReference = 4927A1BB1934C98900E5F6D2 /* Translates.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4927A1D51934C98900E5F6D2 /* TranslatesTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4927A1EA1934C98900E5F6D2 /* Build configuration list for PBXNativeTarget "TranslatesTests" */;
-			buildPhases = (
-				4927A1D21934C98900E5F6D2 /* Sources */,
-				4927A1D31934C98900E5F6D2 /* Frameworks */,
-				4927A1D41934C98900E5F6D2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4927A1DC1934C98900E5F6D2 /* PBXTargetDependency */,
-			);
-			name = TranslatesTests;
-			productName = TranslatesTests;
-			productReference = 4927A1D61934C98900E5F6D2 /* TranslatesTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -191,11 +132,6 @@
 				CLASSPREFIX = TWT;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Two Toasters, LLC";
-				TargetAttributes = {
-					4927A1D51934C98900E5F6D2 = {
-						TestTargetID = 4927A1BA1934C98900E5F6D2;
-					};
-				};
 			};
 			buildConfigurationList = 4927A1B61934C98900E5F6D2 /* Build configuration list for PBXProject "Translates" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -210,7 +146,6 @@
 			projectRoot = "";
 			targets = (
 				4927A1BA1934C98900E5F6D2 /* Translates */,
-				4927A1D51934C98900E5F6D2 /* TranslatesTests */,
 			);
 		};
 /* End PBXProject section */
@@ -225,14 +160,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4927A1D41934C98900E5F6D2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4927A1E21934C98900E5F6D2 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -242,40 +169,18 @@
 			files = (
 				4927A1CF1934C98900E5F6D2 /* TWTAppDelegate.m in Sources */,
 				4927A1CB1934C98900E5F6D2 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4927A1D21934C98900E5F6D2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4927A1E41934C98900E5F6D2 /* TranslatesTests.m in Sources */,
+				4927A1EF1934CA2C00E5F6D2 /* TWTViewController.m in Sources */,
+				4927A1F219350FA200E5F6D2 /* UIView+TWTConstraintsForAutoresizingMask.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4927A1DC1934C98900E5F6D2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4927A1BA1934C98900E5F6D2 /* Translates */;
-			targetProxy = 4927A1DB1934C98900E5F6D2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4927A1C71934C98900E5F6D2 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4927A1C81934C98900E5F6D2 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		4927A1E01934C98900E5F6D2 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4927A1E11934C98900E5F6D2 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -379,46 +284,6 @@
 			};
 			name = Release;
 		};
-		4927A1EB1934C98900E5F6D2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Translates.app/Translates";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Translates/Translates-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "TranslatesTests/TranslatesTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		4927A1EC1934C98900E5F6D2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Translates.app/Translates";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Translates/Translates-Prefix.pch";
-				INFOPLIST_FILE = "TranslatesTests/TranslatesTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -436,14 +301,6 @@
 			buildConfigurations = (
 				4927A1E81934C98900E5F6D2 /* Debug */,
 				4927A1E91934C98900E5F6D2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		4927A1EA1934C98900E5F6D2 /* Build configuration list for PBXNativeTarget "TranslatesTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4927A1EB1934C98900E5F6D2 /* Debug */,
-				4927A1EC1934C98900E5F6D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  TWTAppDelegate.h
+//  TWTViewController.h
 //  Translates
 //
 //  Created by Andrew Hershberger on 5/27/14.
@@ -9,8 +9,5 @@
 @import UIKit;
 
 
-@interface TWTAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface TWTViewController : UIViewController
 @end
